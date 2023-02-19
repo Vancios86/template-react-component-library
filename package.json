@@ -1,5 +1,5 @@
 {
-  "name": "template-react",
+  "name": "vancios86/template-react-component-library",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/YOUR_REPOSITORY_NAME"
   },
@@ -51,10 +51,14 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
-    "dist", "src/**"
+    "dist",
+    "src/**"
   ],
-  "types": "dist/index.d.ts",
   "dependencies": {
     "rollup-plugin-copy": "^3.4.0"
+  },
+  "types": "dist/index.d.ts",
+  "publishCOnfig": {
+    "registry": "https://npm.pkg.github.com/vancios86"
   }
 }
